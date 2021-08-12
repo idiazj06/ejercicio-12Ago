@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Styles/style.css">
-    <title>Document</title>
+    <title>SuperHeroes</title>
 </head>
+
 <body>
+
+    <header>
+        <h1>Rick & Morty</h1>
+    </header>
+
+    <div class="container">
+        <div id="items"></div>
+    </div>
+
+
+    <template id="template-cards">
+
+        <div id="cards">
+            <img id="img" src="https://rickandmortyapi.com/api/character/avatar/2.jpeg" alt="imagen">
+            <div class="titulo">
+                <div id="specie">
+                    <h2>titulo</h2>
+                    <div class="specie-contenido">
+                        <span id="span"></span>
+                        <h3 id="status">status</h3> - <h3 id="especie">-especie</h3>
+                    </div>
+                </div>
+                <div class="segund-cont-card">
+                    <div class="locacion">
+                        <h5>Ultima locacion conocida</h6>
+                            <p id="ultLocacion">locacion</p>
+                    </div>
+                    <div class="aparicion">
+                        <h5>Origen:</h4>
+                            <p id="origen">primera aparicion</p>
+                    </div>
+                </div>
+            </div>
+
+    </template>
+
+
+
+
+
     <script src="./Scripts/script.js"></script>
 </body>
+
 </html>
