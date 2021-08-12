@@ -53,6 +53,8 @@ header{
     flex-direction: row;
     background-color: #252525;
     margin-bottom: 20px;
+    transform:translateY(0%);
+    transition: transform .4s ease-in;
 }
 
 #cards img {
@@ -136,4 +138,10 @@ p {
     font-size: 12px;
     font-family: 'Recursive', sans-serif;
     color: rgb(131, 131, 131);
+}
+
+#cards:hover{
+    transform:translateY(-6%);
+    width: 450px;
+    height: 200px;
 }
